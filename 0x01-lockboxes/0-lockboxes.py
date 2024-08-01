@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+
+""" Write a method that determines if all the boxes can be opened
+"""
+
+
 def canUnlockAll(boxes):
     n = len(boxes)
     opened = [False] * n
